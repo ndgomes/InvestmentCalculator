@@ -37,7 +37,7 @@ export const UserInput: React.FC<UserInputPropsInterface> = (props) => {
       </div>
       <div className="input-group">
         <p>
-          <label>Interest Rate Yearly</label>
+          <label>Interest Rate</label>
           <input
             type="number"
             required
@@ -50,7 +50,7 @@ export const UserInput: React.FC<UserInputPropsInterface> = (props) => {
         <p>
           <label>
             Duration{" "}
-            <span style={{ opacity: 0.5, fontSize: "0.8rem" }}>(years)</span>
+            <span style={{ opacity: 0.5, fontSize: "0.6rem" }}>(years)</span>
           </label>
           <input
             type="number"
